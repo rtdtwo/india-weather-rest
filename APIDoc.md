@@ -19,20 +19,20 @@
 
 ### Weather
 - `astronomical`: Holds astronomical data. All times in HH:MM (24 hour).
- - `sunrise`: The sunrise time.
- - `senset`: The sunset time.
- - `moonrise`: The moon rise time.
- - `moonset`: The moon set time.
+	- `sunrise`: The sunrise time.
+	- `senset`: The sunset time.
+	- `moonrise`: The moon rise time.
+	- `moonset`: The moon set time.
 - `humidity`: Holds relative humidity data - morning and evening.
 - `temperature`: Holds temperature data - max and min.
- - `value`: Temperature value in degrees celsius.
- - `departure`: Departure from normal temperature in degrees celsius.
+	- `value`: Temperature value in degrees celsius.
+	- `departure`: Departure from normal temperature in degrees celsius.
 - `forecast`: Forecast of weather for the next 7 days.
- - `day`: Forecast day - 1 to 7
- - `date`: Date of the day in `DD-MMM` format.
- - `max`: Forecasted maximum temperature in degrees celsius.
- - `min`: Forecasted minimum temperature in degrees celsius.
- - `condition`: The forecasted weather condition.
+	- `day`: Forecast day - 1 to 7
+	- `date`: Date of the day in `DD-MMM` format.
+	- `max`: Forecasted maximum temperature in degrees celsius.
+	- `min`: Forecasted minimum temperature in degrees celsius.
+	- `condition`: The forecasted weather condition.
 
 ## Station
 

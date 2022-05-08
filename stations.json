@@ -1,272 +1,272 @@
 [
     {
         "station": "Shivajinagar",
-        "city": "Pune",
-        "state": "Maharashtra",
+        "jurisdiction": "Pune",
+        "region": "Maharashtra",
         "stationId": 43063
     },
     {
         "station": "Santacruz",
-        "city": "Mumbai",
-        "state": "Maharashtra",
+        "jurisdiction": "Mumbai",
+        "region": "Maharashtra",
         "stationId": 43003
     },
     {
         "station": "Colaba",
-        "city": "Mumbai",
-        "state": "Maharashtra",
+        "jurisdiction": "Mumbai",
+        "region": "Maharashtra",
         "stationId": 43057
     },
     {
         "station": "Colaba",
-        "city": "Mumbai",
-        "state": "Maharashtra",
+        "jurisdiction": "Mumbai",
+        "region": "Maharashtra",
         "stationId": 43057
     },
     {
         "station": "Hyderabad",
-        "city": "Hyderabad",
-        "state": "Telangana",
+        "jurisdiction": "Hyderabad",
+        "region": "Telangana",
         "stationId": 43128
     },
     {
         "station": "Bengaluru",
-        "city": "Bengaluru",
-        "state": "Karnataka",
+        "jurisdiction": "Bengaluru",
+        "region": "Karnataka",
         "stationId": 43295
     },
     {
         "station": "Minambakkam",
-        "city": "Chennai",
-        "state": "Tamil Nadu",
+        "jurisdiction": "Chennai",
+        "region": "Tamil Nadu",
         "stationId": 43279
     },
     {
         "station": "Nungambakkam",
-        "city": "Chennai",
-        "state": "Tamil Nadu",
+        "jurisdiction": "Chennai",
+        "region": "Tamil Nadu",
         "stationId": 43279
     },
     {
         "station": "Visakhapatnam",
-        "city": "Visakhapatnam",
-        "state": "Andhra Pradesh",
+        "jurisdiction": "Visakhapatnam",
+        "region": "Andhra Pradesh",
         "stationId": 43149
     },
     {
         "station": "Thiruvananthapuram",
-        "city": "Thiruvananthapuram",
-        "state": "Kerala",
+        "jurisdiction": "Thiruvananthapuram",
+        "region": "Kerala",
         "stationId": 43371
     },
     {
         "station": "Bhubaneswar",
-        "city": "Bhubaneswar",
-        "state": "Odisha",
+        "jurisdiction": "Bhubaneswar",
+        "region": "Odisha",
         "stationId": 42971
     },
     {
         "station": "Gopalpur",
-        "city": "Gopalpur",
-        "state": "Odisha",
+        "jurisdiction": "Gopalpur",
+        "region": "Odisha",
         "stationId": 43049
     },
     {
         "station": "Puducherry",
-        "city": "Puducherry",
-        "state": "Puducherry",
+        "jurisdiction": "Puducherry",
+        "region": "Puducherry",
         "stationId": 43328
     },
     {
         "station": "Lalpur",
-        "city": "Raipur",
-        "state": "Chhattisgarh",
+        "jurisdiction": "Raipur",
+        "region": "Chhattisgarh",
         "stationId": 42874
     },
     {
         "station": "Arera",
-        "city": "Bhopal",
-        "state": "Madhya Pradesh",
+        "jurisdiction": "Bhopal",
+        "region": "Madhya Pradesh",
         "stationId": 42667
     },
     {
         "station": "Ahmedabad",
-        "city": "Ahmedabad",
-        "state": "Gujarat",
+        "jurisdiction": "Ahmedabad",
+        "region": "Gujarat",
         "stationId": 42647
     },
     {
         "station": "Indian Institute of Public Health",
-        "city": "Gandhinagar",
-        "state": "Gujarat",
+        "jurisdiction": "Gandhinagar",
+        "region": "Gujarat",
         "stationId": 99959
     },
     {
         "station": "Babasaheb Ambedkar International Airport",
-        "city": "Nagpur",
-        "state": "Maharashtra",
+        "jurisdiction": "Nagpur",
+        "region": "Maharashtra",
         "stationId": 42867
     },
     {
         "station": "Birsa Munda Airport",
-        "city": "Ranchi",
-        "state": "Jharkhand",
+        "jurisdiction": "Ranchi",
+        "region": "Jharkhand",
         "stationId": 42701
     },
     {
         "station": "Jaipur International Airport",
-        "city": "Jaipur",
-        "state": "Rajasthan",
+        "jurisdiction": "Jaipur",
+        "region": "Rajasthan",
         "stationId": 42348
     },
     {
         "station": "Chaudhary Charan Singh International Airport",
-        "city": "Lucknow",
-        "state": "Uttar Pradesh",
+        "jurisdiction": "Lucknow",
+        "region": "Uttar Pradesh",
         "stationId": 42369
     },
     {
         "station": "Agra Airport",
-        "city": "Agra",
-        "state": "Uttar Pradesh",
+        "jurisdiction": "Agra",
+        "region": "Uttar Pradesh",
         "stationId": 42260
     },
     {
         "station": "Jay Prakash Narayan Airport",
-        "city": "Patna",
-        "state": "Bihar",
+        "jurisdiction": "Patna",
+        "region": "Bihar",
         "stationId": 42492
     },
     {
         "station": "Netaji Subhas Chandra Bose International Airport",
-        "city": "Kolkata",
-        "state": "West Bengal",
+        "jurisdiction": "Kolkata",
+        "region": "West Bengal",
         "stationId": 42809
     },
     {
         "station": "Safdarjung Airport",
-        "city": "New Delhi",
-        "state": "Delhi",
+        "jurisdiction": "New Delhi",
+        "region": "Delhi",
         "stationId": 42182
     },
     {
         "station": "Indira Gandhi International Airport",
-        "city": "New Delhi",
-        "state": "Delhi",
+        "jurisdiction": "New Delhi",
+        "region": "Delhi",
         "stationId": 42181
     },
     {
         "station": "Gurugram",
-        "city": "Gurugram",
-        "state": "Haryana",
+        "jurisdiction": "Gurugram",
+        "region": "Haryana",
         "stationId": 42178
     },
     {
         "station": "Rohtak",
-        "city": "Rohtak",
-        "state": "Haryana",
+        "jurisdiction": "Rohtak",
+        "region": "Haryana",
         "stationId": 42176
     },
     {
         "station": "Chandigarh",
-        "city": "Chandigarh",
-        "state": "Chandigarh",
+        "jurisdiction": "Chandigarh",
+        "region": "Chandigarh",
         "stationId": 42105
     },
     {
         "station": "Ludhiana",
-        "city": "Ludhiana",
-        "state": "Punjab",
+        "jurisdiction": "Ludhiana",
+        "region": "Punjab",
         "stationId": 42099
     },
     {
         "station": "Sri Guru Ram Dass Jee International Airport",
-        "city": "Amritsar",
-        "state": "Punjab",
+        "jurisdiction": "Amritsar",
+        "region": "Punjab",
         "stationId": 42071
     },
     {
         "station": "Jammu",
-        "city": "Jammu",
-        "state": "Jammu and Kashmir",
+        "jurisdiction": "Jammu",
+        "region": "Jammu and Kashmir",
         "stationId": 42056
     },
     {
         "station": "Srinagar",
-        "city": "Srinagar",
-        "state": "Jammu and Kashmir",
+        "jurisdiction": "Srinagar",
+        "region": "Jammu and Kashmir",
         "stationId": 42027
     },
     {
         "station": "Leh",
-        "city": "Leh",
-        "state": "Ladakh",
+        "jurisdiction": "Leh",
+        "region": "Ladakh",
         "stationId": 42034
     },
     {
         "station": "Dharamshala",
-        "city": "Dharamshala",
-        "state": "Himachal Pradesh",
+        "jurisdiction": "Dharamshala",
+        "region": "Himachal Pradesh",
         "stationId": 42062
     },
     {
         "station": "Mokhampur",
-        "city": "Dehradun",
-        "state": "Uttarakhand",
+        "jurisdiction": "Dehradun",
+        "region": "Uttarakhand",
         "stationId": 42111
     },
     {
         "station": "Darjeeling",
-        "city": "Darjeeling",
-        "state": "West Bengal",
+        "jurisdiction": "Darjeeling",
+        "region": "West Bengal",
         "stationId": 42293
     },
     {
         "station": "Gangtok",
-        "city": "Gangtok",
-        "state": "Sikkim",
+        "jurisdiction": "Gangtok",
+        "region": "Sikkim",
         "stationId": 42299
     },
     {
         "station": "Guwahati",
-        "city": "Guwahati",
-        "state": "Assam",
+        "jurisdiction": "Guwahati",
+        "region": "Assam",
         "stationId": 42410
     },
     {
         "station": "Itanagar",
-        "city": "Itanagar",
-        "state": "Arunachal Pradesh",
+        "jurisdiction": "Itanagar",
+        "region": "Arunachal Pradesh",
         "stationId": 42308
     },
     {
         "station": "Kohima",
-        "city": "Kohima",
-        "state": "Nagaland",
+        "jurisdiction": "Kohima",
+        "region": "Nagaland",
         "stationId": 42527
     },
     {
         "station": "Imphal Airport",
-        "city": "Imphal",
-        "state": "Manipur",
+        "jurisdiction": "Imphal",
+        "region": "Manipur",
         "stationId": 42623
     },
     {
         "station": "Lengpui Airport",
-        "city": "Aizawl",
-        "state": "Mizoram",
+        "jurisdiction": "Aizawl",
+        "region": "Mizoram",
         "stationId": 42727
     },
     {
         "station": "Agartala",
-        "city": "Agartala",
-        "state": "Tripura",
+        "jurisdiction": "Agartala",
+        "region": "Tripura",
         "stationId": 42724
     },
     {
         "station": "Shillong",
-        "city": "Shillong",
-        "state": "Meghalaya",
+        "jurisdiction": "Shillong",
+        "region": "Meghalaya",
         "stationId": 42516
     }
 ]

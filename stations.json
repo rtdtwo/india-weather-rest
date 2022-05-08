@@ -1,0 +1,272 @@
+[
+    {
+        "station": "Shivajinagar",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "stationId": 43063
+    },
+    {
+        "station": "Santacruz",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "stationId": 43003
+    },
+    {
+        "station": "Colaba",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "stationId": 43057
+    },
+    {
+        "station": "Colaba",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "stationId": 43057
+    },
+    {
+        "station": "Hyderabad",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "stationId": 43128
+    },
+    {
+        "station": "Bengaluru",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "stationId": 43295
+    },
+    {
+        "station": "Minambakkam",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "stationId": 43279
+    },
+    {
+        "station": "Nungambakkam",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "stationId": 43279
+    },
+    {
+        "station": "Visakhapatnam",
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "stationId": 43149
+    },
+    {
+        "station": "Thiruvananthapuram",
+        "city": "Thiruvananthapuram",
+        "state": "Kerala",
+        "stationId": 43371
+    },
+    {
+        "station": "Bhubaneswar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "stationId": 42971
+    },
+    {
+        "station": "Gopalpur",
+        "city": "Gopalpur",
+        "state": "Odisha",
+        "stationId": 43049
+    },
+    {
+        "station": "Puducherry",
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "stationId": 43328
+    },
+    {
+        "station": "Lalpur",
+        "city": "Raipur",
+        "state": "Chhattisgarh",
+        "stationId": 42874
+    },
+    {
+        "station": "Arera",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "stationId": 42667
+    },
+    {
+        "station": "Ahmedabad",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "stationId": 42647
+    },
+    {
+        "station": "Indian Institute of Public Health",
+        "city": "Gandhinagar",
+        "state": "Gujarat",
+        "stationId": 99959
+    },
+    {
+        "station": "Babasaheb Ambedkar International Airport",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "stationId": 42867
+    },
+    {
+        "station": "Birsa Munda Airport",
+        "city": "Ranchi",
+        "state": "Jharkhand",
+        "stationId": 42701
+    },
+    {
+        "station": "Jaipur International Airport",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "stationId": 42348
+    },
+    {
+        "station": "Chaudhary Charan Singh International Airport",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "stationId": 42369
+    },
+    {
+        "station": "Agra Airport",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "stationId": 42260
+    },
+    {
+        "station": "Jay Prakash Narayan Airport",
+        "city": "Patna",
+        "state": "Bihar",
+        "stationId": 42492
+    },
+    {
+        "station": "Netaji Subhas Chandra Bose International Airport",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "stationId": 42809
+    },
+    {
+        "station": "Safdarjung Airport",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "stationId": 42182
+    },
+    {
+        "station": "Indira Gandhi International Airport",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "stationId": 42181
+    },
+    {
+        "station": "Gurugram",
+        "city": "Gurugram",
+        "state": "Haryana",
+        "stationId": 42178
+    },
+    {
+        "station": "Rohtak",
+        "city": "Rohtak",
+        "state": "Haryana",
+        "stationId": 42176
+    },
+    {
+        "station": "Chandigarh",
+        "city": "Chandigarh",
+        "state": "Chandigarh",
+        "stationId": 42105
+    },
+    {
+        "station": "Ludhiana",
+        "city": "Ludhiana",
+        "state": "Punjab",
+        "stationId": 42099
+    },
+    {
+        "station": "Sri Guru Ram Dass Jee International Airport",
+        "city": "Amritsar",
+        "state": "Punjab",
+        "stationId": 42071
+    },
+    {
+        "station": "Jammu",
+        "city": "Jammu",
+        "state": "Jammu and Kashmir",
+        "stationId": 42056
+    },
+    {
+        "station": "Srinagar",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "stationId": 42027
+    },
+    {
+        "station": "Leh",
+        "city": "Leh",
+        "state": "Ladakh",
+        "stationId": 42034
+    },
+    {
+        "station": "Dharamshala",
+        "city": "Dharamshala",
+        "state": "Himachal Pradesh",
+        "stationId": 42062
+    },
+    {
+        "station": "Mokhampur",
+        "city": "Dehradun",
+        "state": "Uttarakhand",
+        "stationId": 42111
+    },
+    {
+        "station": "Darjeeling",
+        "city": "Darjeeling",
+        "state": "West Bengal",
+        "stationId": 42293
+    },
+    {
+        "station": "Gangtok",
+        "city": "Gangtok",
+        "state": "Sikkim",
+        "stationId": 42299
+    },
+    {
+        "station": "Guwahati",
+        "city": "Guwahati",
+        "state": "Assam",
+        "stationId": 42410
+    },
+    {
+        "station": "Itanagar",
+        "city": "Itanagar",
+        "state": "Arunachal Pradesh",
+        "stationId": 42308
+    },
+    {
+        "station": "Kohima",
+        "city": "Kohima",
+        "state": "Nagaland",
+        "stationId": 42527
+    },
+    {
+        "station": "Imphal Airport",
+        "city": "Imphal",
+        "state": "Manipur",
+        "stationId": 42623
+    },
+    {
+        "station": "Lengpui Airport",
+        "city": "Aizawl",
+        "state": "Mizoram",
+        "stationId": 42727
+    },
+    {
+        "station": "Agartala",
+        "city": "Agartala",
+        "state": "Tripura",
+        "stationId": 42724
+    },
+    {
+        "station": "Shillong",
+        "city": "Shillong",
+        "state": "Meghalaya",
+        "stationId": 42516
+    }
+]

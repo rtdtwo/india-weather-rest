@@ -33,5 +33,5 @@ def get_station_weather(id):
     data = scraper.get_station_data(id)
     return {
         'code': 200,
-        'results': data
+        'result': data
     }

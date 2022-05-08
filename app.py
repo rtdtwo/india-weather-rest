@@ -5,6 +5,7 @@ from flask_limiter.util import get_remote_address
 import waitress
 import os
 
+
 RATE_LIMIT_DAILY = os.getenv('RATE_LIMIT_DAILY')
 RATE_LIMIT_HOURLY = os.getenv('RATE_LIMIT_HOURLY')
 
@@ -14,12 +15,15 @@ if RATE_LIMIT_DAILY is None:
 if RATE_LIMIT_HOURLY is None:
     RATE_LIMIT_HOURLY = 5
 
+
 app = Flask(__name__)
 limiter = Limiter(
     app,
     key_func=get_remote_address,
-    default_limits=["{} per day".format(RATE_LIMIT_DAILY), "{} per hour".format(RATE_LIMIT_HOURLY)]
+    default_limits=["{} per day".format(
+        RATE_LIMIT_DAILY), "{} per hour".format(RATE_LIMIT_HOURLY)]
 )
+
 
 @app.route('/station/<string:id>')
 def get_station(id):
@@ -38,9 +42,9 @@ def get_station_weather(id):
 
 
 if __name__ == '__main__':
-    # Uncomment the waitress line and 
-    # comment the flask (app.run) line 
-    # on a production environment, 
+    # Uncomment the waitress line and
+    # comment the flask (app.run) line
+    # on a production environment,
     # or vice versa.
 
     waitress.serve(app, host='0.0.0.0', port=1875)

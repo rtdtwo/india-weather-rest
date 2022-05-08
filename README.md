@@ -13,4 +13,4 @@ Request inclusion of new stations in ![this issue](https://github.com/rtdtwo/ind
 ## Disclaimer
 - NOT AFFILIATED TO INDIA METEOROLOGICAL DEPARTMENT IN ANY WAY. ALL DUE CREDITS TO THEM, I'M ONLY PROVIDING A WAY TO ACCESS THE DATA.
 - DATA IS PROVIDED AS IS WITHOUT ANY MODIFICATIONS.
-- I scrape their website to get this data, and this tool may break as soon as they decide to change their website code.
+- I scrape their website to get this data, and this tool may break as soon as they decide to change their website code. So, do not rely on this tool for critical applications.

@@ -14,5 +14,11 @@ def get_station(id):
     return jsonify(result), result['code']
 
 
+@app.route('/weather/<int:id>')
+def get_station_weather(id):
+    result = bl.get_station_weather(id)
+    return jsonify(result), result['code']
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=1875)

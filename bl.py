@@ -1,4 +1,5 @@
 import json
+import scraper
 
 
 def get_all_stations():
@@ -25,4 +26,12 @@ def get_station_by_id(id):
     return {
         'code': 404,
         'msg': 'No station with ID {} found'.format(id)
+    }
+
+
+def get_station_weather(id):
+    data = scraper.get_station_data(id)
+    return {
+        'code': 200,
+        'results': data
     }

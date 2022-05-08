@@ -8,6 +8,12 @@ import os
 RATE_LIMIT_DAILY = os.getenv('RATE_LIMIT_DAILY')
 RATE_LIMIT_HOURLY = os.getenv('RATE_LIMIT_HOURLY')
 
+if RATE_LIMIT_DAILY is None:
+    RATE_LIMIT_DAILY = 20
+
+if RATE_LIMIT_HOURLY is None:
+    RATE_LIMIT_HOURLY = 5
+
 app = Flask(__name__)
 limiter = Limiter(
     app,
@@ -37,5 +43,5 @@ if __name__ == '__main__':
     # on a production environment, 
     # or vice versa.
 
-    waitress.serve(host='0.0.0.0', port=1875)
+    waitress.serve(app, host='0.0.0.0', port=1875)
     # app.run(host='0.0.0.0', port=1875)

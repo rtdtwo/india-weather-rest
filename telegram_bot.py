@@ -12,7 +12,7 @@ with open('tg-token.txt', 'r') as token_file:
     bot_token = token_file.read().strip()
 
 # Fetch the list of base stations from your local server
-base_station_url = 'https://127.0.0.1:5001/station/all'
+base_station_url = 'http://127.0.0.1:5001/station/all'
 response = requests.get(base_station_url)
 
 if response.status_code == 200:
@@ -49,7 +49,7 @@ def handle_message(message):
             station_id = selected_station['stationId']
             
             # Make a request to your local server with the station ID
-            response = requests.get(f'https://127.0.0.1:5001/weather/{station_id}')
+            response = requests.get(f'http://127.0.0.1:5001/weather/{station_id}')
 
             if response.status_code == 200:
                 weather_data = response.json()['result']

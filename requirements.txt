@@ -4,3 +4,8 @@ requests
 waitress
 Flask-Limiter
 gunicorn
+telegram
+python-telegram-bot
+telebot
+certifi
+pyTelegramBotAPI

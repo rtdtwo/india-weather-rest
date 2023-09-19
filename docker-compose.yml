@@ -1,0 +1,21 @@
+version: '3'
+services:
+  india-weather-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - IMD_TELEGRAM_BOT_TOKEN=your_bot_token
+    ports:
+      - "4450:4450" # Use port 4450 for the Flask app
+    volumes:
+      - ./data:/app/data # Mount a volume for data if needed
+    command: [ "python", "app.py" ]
+
+  india-telegram-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - IMD_TELEGRAM_BOT_TOKEN=your_bot_token
+    command: [ "python", "telegram_bot.py" ]

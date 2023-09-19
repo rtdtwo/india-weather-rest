@@ -16,6 +16,20 @@ See ![API Documentation](https://github.com/rtdtwo/india-weather-rest/blob/main/
 ## Station support
 Request inclusion of new stations in ![this issue](https://github.com/rtdtwo/india-weather-rest/issues/1).
 
+## Telegram Bot Screenshots
+| Screenshot 1 | Screenshot 2 |
+| ------------ | ------------ |
+| ![Screenshot_20230919-160537_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/84635050-4e8c-41cd-b734-e4f1c0799d25) | ![Screenshot_20230919-160552_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/8937542c-4369-4b5a-a75a-295cf301deb6) |
+
+| Screenshot 3 | Screenshot 4 |
+| ------------ | ------------ |
+| ![Screenshot_20230919-160613_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/fd2c1632-6bc5-4145-b584-97e8af75bbd2) | ![Screenshot_20230919-160619_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/b0ef5cb0-20fc-4f38-9d55-329a19cf92b5) |
+
+| Vector Logo Unofficial Light | Vector Logo Unofficial Dark |
+| ------------ | ------------ |
+| ![IMD_ALT](https://github.com/prateekmaru/india-weather-rest/assets/47496067/fd9d0f6a-71b0-43f0-b85f-7763e8c9849d) | ![IMD](https://github.com/prateekmaru/india-weather-rest/assets/47496067/b733d035-73f1-476a-acb0-7ab9308b1aae) |
+
+
 ## Disclaimer
 - NOT AFFILIATED TO INDIA METEOROLOGICAL DEPARTMENT IN ANY WAY. ALL DUE CREDITS TO THEM, I'M ONLY PROVIDING A WAY TO ACCESS THE DATA.
 - DATA IS PROVIDED AS IS WITHOUT ANY MODIFICATIONS.

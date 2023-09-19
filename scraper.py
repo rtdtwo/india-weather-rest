@@ -3,14 +3,14 @@ from bs4 import BeautifulSoup
 
 
 def get_station_data(id):
-    URL = 'http://city.imd.gov.in/citywx/city_weather.php?id={}'.format(id)
+    URL = "https://city.imd.gov.in/citywx/city_weather.php?id={}".format(id)
 
-    response = requests.get(URL, verify=False)
+    response = requests.get(URL, verify=True)
     html_text = response.text
 
-    soup = BeautifulSoup(html_text, 'html.parser')
+    soup = BeautifulSoup(html_text, "html.parser")
 
-    cells = soup.find_all('td')
+    cells = soup.find_all("td")
 
     max_temp = cells[4].text.strip()
     max_dep = cells[6].text.strip()
@@ -60,75 +60,66 @@ def get_station_data(id):
     day7_forecast = cells[65].font.text.strip()
 
     return {
-        'temperature': {
-            'max': {
-                'value': float(max_temp),
-                'departure': float(max_dep)
-            },
-            'min': {
-                'value': float(min_temp),
-                'departure': float(min_dep)
-            }
+        "temperature": {
+            "max": {"value": float(max_temp), "departure": float(max_dep)},
+            "min": {"value": float(min_temp), "departure": float(min_dep)},
         },
-        'humidity': {
-            'morning': float(rh_0830),
-            'evening': float(rh_1730)
+        "humidity": {"morning": float(rh_0830), "evening": float(rh_1730)},
+        "astronomical": {
+            "sunrise": sunrise,
+            "sunset": sunset,
+            "moonrise": moonrise,
+            "moonset": moonset,
         },
-        'astronomical': {
-            'sunrise': sunrise,
-            'sunset': sunset,
-            'moonrise': moonrise,
-            'moonset': moonset
-        },
-        'forecast': [
+        "forecast": [
             {
-                'day': 1,
-                'date': day1_date,
-                'max': float(day1_max),
-                'min': float(day1_min),
-                'condition': day1_forecast
+                "day": 1,
+                "date": day1_date,
+                "max": float(day1_max),
+                "min": float(day1_min),
+                "condition": day1_forecast,
             },
             {
-                'day': 2,
-                'date': day2_date,
-                'max': float(day2_max),
-                'min': float(day2_min),
-                'condition': day2_forecast
+                "day": 2,
+                "date": day2_date,
+                "max": float(day2_max),
+                "min": float(day2_min),
+                "condition": day2_forecast,
             },
             {
-                'day': 3,
-                'date': day3_date,
-                'max': float(day3_max),
-                'min': float(day3_min),
-                'condition': day3_forecast
+                "day": 3,
+                "date": day3_date,
+                "max": float(day3_max),
+                "min": float(day3_min),
+                "condition": day3_forecast,
             },
             {
-                'day': 4,
-                'date': day4_date,
-                'max': float(day4_max),
-                'min': float(day4_min),
-                'condition': day4_forecast
+                "day": 4,
+                "date": day4_date,
+                "max": float(day4_max),
+                "min": float(day4_min),
+                "condition": day4_forecast,
             },
             {
-                'day': 5,
-                'date': day5_date,
-                'max': float(day5_max),
-                'min': float(day5_min),
-                'condition': day5_forecast
+                "day": 5,
+                "date": day5_date,
+                "max": float(day5_max),
+                "min": float(day5_min),
+                "condition": day5_forecast,
             },
             {
-                'day': 6,
-                'date': day6_date,
-                'max': float(day6_max),
-                'min': float(day6_min),
-                'condition': day6_forecast
+                "day": 6,
+                "date": day6_date,
+                "max": float(day6_max),
+                "min": float(day6_min),
+                "condition": day6_forecast,
             },
             {
-                'day': 7,
-                'date': day7_date,
-                'max': float(day7_max),
-                'min': float(day7_min),
-                'condition': day7_forecast
-            }
-        ]
+                "day": 7,
+                "date": day7_date,
+                "max": float(day7_max),
+                "min": float(day7_min),
+                "condition": day7_forecast,
+            },
+        ],
     }

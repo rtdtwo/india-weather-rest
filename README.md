@@ -19,15 +19,16 @@ Request inclusion of new stations in ![this issue](https://github.com/rtdtwo/ind
 ## Telegram Bot Screenshots
 | Screenshot 1 | Screenshot 2 |
 | ------------ | ------------ |
-| ![Screenshot_20230919-160537_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/84635050-4e8c-41cd-b734-e4f1c0799d25) | ![Screenshot_20230919-160552_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/8937542c-4369-4b5a-a75a-295cf301deb6) |
+| ![Screenshot_20230919-160537_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/0942d2ef-b0c4-4a17-95a1-9ab459480991) | ![Screenshot_20230919-160552_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/0a9000b5-8318-4caf-a19b-35f3eb0525b0) |
 
 | Screenshot 3 | Screenshot 4 |
 | ------------ | ------------ |
-| ![Screenshot_20230919-160613_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/fd2c1632-6bc5-4145-b584-97e8af75bbd2) | ![Screenshot_20230919-160619_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/b0ef5cb0-20fc-4f38-9d55-329a19cf92b5) |
+| ![Screenshot_20230919-160613_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/752a006c-542a-4830-9ea9-08704a27702b) | ![Screenshot_20230919-160619_Plus](https://github.com/prateekmaru/india-weather-rest/assets/47496067/ed421411-b28b-4eba-b8a5-a52b99c057e0) |
 
 | Vector Logo Unofficial Light | Vector Logo Unofficial Dark |
 | ------------ | ------------ |
-| ![IMD_ALT](https://github.com/prateekmaru/india-weather-rest/assets/47496067/fd9d0f6a-71b0-43f0-b85f-7763e8c9849d) | ![IMD](https://github.com/prateekmaru/india-weather-rest/assets/47496067/b733d035-73f1-476a-acb0-7ab9308b1aae) |
+| ![IMD_ALT](https://github.com/prateekmaru/india-weather-rest/assets/47496067/97c2000b-ed93-40d8-a2fc-1e88a5007d04) | ![IMD](https://github.com/prateekmaru/india-weather-rest/assets/47496067/0b98512f-c3b6-4762-b409-c7b7146b372c) |
+
 
 
 ## Disclaimer

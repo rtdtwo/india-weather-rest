@@ -47,5 +47,5 @@ if __name__ == "__main__":
     # on a production environment,
     # or vice versa.
 
-    waitress.serve(app, host="https://141.148.211.41", port=5001 )
+    waitress.serve(app, host="https://127.0.0.1", port=5001 )
     # app.run(host='0.0.0.0', port=5001)

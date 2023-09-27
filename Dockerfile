@@ -27,8 +27,8 @@ CMD ["sh", "-c", "python3 app.py & python3 telegram_bot.py"]
 
 # For Docker Users
 # docker build -t india-weather-app --build-arg IMD_TELEGRAM_BOT_TOKEN=your_bot_token .
-# docker run -d -p 4450:4450 india-weather-app
+# docker run -d -p 5001:5001 india-weather-app
 
 # For Podman Users
 # podman build -t india-weather-app --build-arg IMD_TELEGRAM_BOT_TOKEN=your_bot_token .
-# podman run -d -p 4450:4450 india-weather-app
+# podman run -d -p 5001:5001 india-weather-app

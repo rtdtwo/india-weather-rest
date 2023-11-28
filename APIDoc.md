@@ -43,7 +43,7 @@
 /station/all
 ```
 
-```
+```json
 {
 	"code": 200,
 	"result": [{
@@ -70,7 +70,7 @@
 /station/<int:id>
 ```
 
-```
+```json
 {
 	"code": 200,
 	"result": {
@@ -89,7 +89,7 @@
 /weather/<int:stationId>
 ```
 
-```
+```json
 {
 	"code": 200,
 	"results": {

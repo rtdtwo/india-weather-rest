@@ -20,7 +20,7 @@
 ### Weather
 - `astronomical`: Holds astronomical data. All times in HH:MM (24 hour).
 	- `sunrise`: The sunrise time.
-	- `senset`: The sunset time.
+	- `sunset`: The sunset time.
 	- `moonrise`: The moon rise time.
 	- `moonset`: The moon set time.
 - `humidity`: Holds relative humidity data - morning and evening. Vakues are percentage.

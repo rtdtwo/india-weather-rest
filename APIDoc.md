@@ -23,7 +23,7 @@
 	- `sunset`: The sunset time.
 	- `moonrise`: The moon rise time.
 	- `moonset`: The moon set time.
-- `humidity`: Holds relative humidity data - morning and evening. Vakues are percentage.
+- `humidity`: Holds relative humidity data - morning and evening. Values are percentages.
 	- `morning`: Morning humidity recorded at 8:30 am IST.
 	- `evening`: Evening humidity recorded at 5:30 pm IST.
 - `temperature`: Holds temperature data - max and min.

@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def get_station_data(id):
-    URL = 'http://city.imd.gov.in/citywx/city_weather.php?id={}'.format(id)
+    URL = 'https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id={}'.format(id)
 
     response = requests.get(URL, verify=False)
     html_text = response.text
@@ -24,40 +24,40 @@ def get_station_data(id):
     moonrise = cells[24].text.strip()
     moonset = cells[22].text.strip()
 
-    day1_date = cells[31].font.text.strip()
-    day1_max = cells[33].font.text.strip()
-    day1_min = cells[32].font.text.strip()
-    day1_forecast = cells[35].font.text.strip()
+    day1_date = cells[34].font.text.strip()
+    day1_max = cells[36].font.text.strip()
+    day1_min = cells[35].font.text.strip()
+    day1_forecast = cells[38].font.text.strip()
 
-    day2_date = cells[36].font.text.strip()
-    day2_max = cells[38].font.text.strip()
-    day2_min = cells[37].font.text.strip()
-    day2_forecast = cells[40].font.text.strip()
+    day2_date = cells[43].font.text.strip()
+    day2_max = cells[45].font.text.strip()
+    day2_min = cells[44].font.text.strip()
+    day2_forecast = cells[47].font.text.strip()
 
-    day3_date = cells[41].font.text.strip()
-    day3_max = cells[43].font.text.strip()
-    day3_min = cells[42].font.text.strip()
-    day3_forecast = cells[45].font.text.strip()
+    day3_date = cells[52].font.text.strip()
+    day3_max = cells[54].font.text.strip()
+    day3_min = cells[53].font.text.strip()
+    day3_forecast = cells[56].font.text.strip()
 
-    day4_date = cells[46].font.text.strip()
-    day4_max = cells[48].font.text.strip()
-    day4_min = cells[47].font.text.strip()
-    day4_forecast = cells[50].font.text.strip()
+    day4_date = cells[61].font.text.strip()
+    day4_max = cells[63].font.text.strip()
+    day4_min = cells[62].font.text.strip()
+    day4_forecast = cells[65].font.text.strip()
 
-    day5_date = cells[51].font.text.strip()
-    day5_max = cells[53].font.text.strip()
-    day5_min = cells[52].font.text.strip()
-    day5_forecast = cells[55].font.text.strip()
+    day5_date = cells[70].font.text.strip()
+    day5_max = cells[72].font.text.strip()
+    day5_min = cells[71].font.text.strip()
+    day5_forecast = cells[74].font.text.strip()
 
-    day6_date = cells[56].font.text.strip()
-    day6_max = cells[58].font.text.strip()
-    day6_min = cells[57].font.text.strip()
-    day6_forecast = cells[60].font.text.strip()
+    day6_date = cells[79].font.text.strip()
+    day6_max = cells[81].font.text.strip()
+    day6_min = cells[80].font.text.strip()
+    day6_forecast = cells[83].font.text.strip()
 
-    day7_date = cells[61].font.text.strip()
-    day7_max = cells[63].font.text.strip()
-    day7_min = cells[62].font.text.strip()
-    day7_forecast = cells[65].font.text.strip()
+    day7_date = cells[88].font.text.strip()
+    day7_max = cells[90].font.text.strip()
+    day7_min = cells[89].font.text.strip()
+    day7_forecast = cells[92].font.text.strip()
 
     return {
         'temperature': {

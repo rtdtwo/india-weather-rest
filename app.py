@@ -18,8 +18,8 @@ if RATE_LIMIT_HOURLY is None:
 
 app = Flask(__name__)
 limiter = Limiter(
-    app,
-    key_func=get_remote_address,
+    get_remote_address,
+    app=app,
     default_limits=["{} per day".format(
         RATE_LIMIT_DAILY), "{} per hour".format(RATE_LIMIT_HOURLY)]
 )
